@@ -1,0 +1,196 @@
+.home {
+    position: relative;
+    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./soo2.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+.intro-back  {
+    position: relative;
+    top: 180px;
+    color: white;
+    line-height: 2.5;
+}
+.intro-back h1 {
+    font-size: 70px;
+}
+.intro-back p {
+    font-size: 20px;
+}
+
+.intro-back a {
+    position: relative;
+    top: 30px;
+    border-radius: 30px;
+}
+.intro-back a:hover {
+    background: transparent;
+    color: #3c7ab7;
+}
+.img1 {
+    position: relative;
+    width: 500px;
+    height: 340px;
+    top: 70px;
+    left: 280px;
+}
+.intro-page {
+    position: relative;
+    text-align: left;
+    top: 340px;
+    left: 130px;
+    width: 545px;
+}
+.intro-page h2 {
+    font-size: 45px;
+    color: #555555;
+}
+.bleu {
+    color: #3c7ab7;
+}
+.intro-page ul li {
+    color: #606367;
+}
+.intro-page a {
+    position: relative;
+    left: 200px;
+    top: 17px;
+    text-decoration: none;
+    box-sizing: content-box;
+    width: 150px;
+    height: 10px;
+    padding: 10px; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    border: 2px solid #3c7ab7;
+    color: #3c7ab7;
+}
+.intro-page a:hover {
+    background-color: #3c7ab7;
+    color: white;
+}
+.img2 {
+    position: relative;
+    width: 500px;
+    height: 340px;
+    right: 250px;
+    top: 340px;
+}
+.intro-page2 {
+    position: relative;
+    left: 580px;
+    bottom: 520px;
+}
+.dark {
+  color:   #606367;
+}
+.img3 {
+    position: relative;
+    width: 500px;
+    height: 340px;
+    left: 320px;
+    bottom: 260px;
+}
+.intro-page3 {
+    position: relative;
+    bottom: 290px;
+    left: 45px;
+}
+.img4 {
+    position: relative;
+    width: 500px;
+    height: 340px;
+    right: 265px;
+}
+.intro-page4 {
+    position: relative;
+    left: 570px;
+    bottom: 750px;
+}
+.intro-page4 h2{
+    font-size: 55px;
+}
+.location {
+    position: relative;
+    bottom: 320px;
+    background-color: #eceef1;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+.location h1 {
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+.gps {
+    position: relative;
+    top: 120px;
+    width: 600px;
+    height: 450px;
+}
+.info {
+    position: relative;
+    background-color: #eceef1;
+    width: 100%;
+    height: 130px;
+    top: 200px;
+    text-align: center;
+}
+.info ul li {
+    position: relative;
+    text-align: left;
+    left: 120px;
+    top: 25px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.info ul li a {
+    text-align: right;
+    
+    color: black;
+    
+}
+.right {
+    position: relative;
+    left: 300px;
+    bottom: 60px;
+}
+.right a {
+    position: relative;
+    left: 98px;
+    bottom: 30px;
+    
+    color: black;
+}
+.right h1 {
+    
+    font-size: 20px;
+}
+.footer {
+    position: relative;
+    top: 201px;
+    background-color: #3c7ab7;
+    width: 100%;
+    height: 80px;
+}
+.foot {
+    position: relative;
+    text-align: left;
+    left: 150px;
+    top: 30px;
+    font-size: small;
+
+}
+.footer a {
+    color: white;
+    border: 12px solid transparent;
+    width: 70px;
+    height: 50px;
+}
+.footer a:hover {
+   background-color: white;
+}

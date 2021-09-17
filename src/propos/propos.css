@@ -1,0 +1,32 @@
+.prop-img {
+    position: relative;
+    left: 260px;
+    bottom: 280px;
+    width: 530px;
+    height: 320px;
+}
+.propos {
+    position: relative;
+    top: 60px;
+}
+.propos h1 {
+    font-size: 65px;
+}
+.gris{
+    font-size: 35px;
+    color: #8e9096;
+}
+.props-intro {
+    position: relative;
+    text-align: left;
+    width: 450px;
+    color: #1d2127eb;
+    left: 120px;
+    top: 50px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.last {
+    position: relative;
+    bottom: 200px;
+}

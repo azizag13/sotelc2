@@ -1,0 +1,103 @@
+.carousel {
+    width: 100%;
+    height: 600px;
+}
+.ourback {
+    position: relative;
+    width: 580px;
+    height: 300px;
+    text-align: left;
+    color: white;
+    bottom: 680px;
+    left: 450px;
+    line-height: 1.677777;
+}
+.ourback h2 {
+    font-size: 60px;
+}
+
+.btn1 {
+    background-color: #3c7ab7;
+    border-style: none;
+    color: white;
+    font-size: 18px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: #3c7ab7;
+}
+.ourback2 {
+    position: relative;
+    right: 280px;
+    top: 100px;
+}
+ .ourfoot {
+     position: relative;
+     padding-bottom: 40px;
+     bottom: 39px;
+     width: 100%;
+     height: 500px;
+ }
+ .infoo {
+    position: relative;
+    background-color: #eceef1;
+    width: 100%;
+    height: 250px;
+    top: 158px;
+    text-align: center;
+}
+.infoo ul li {
+    position: relative;
+    text-align: left;
+    left: 120px;
+    top: 75px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.infoo ul li a {
+    text-align: right;
+    
+    color: black;
+    
+}
+.rightt {
+    position: relative;
+    left: 300px;
+    bottom: 20px;
+}
+.rightt a {
+    position: relative;
+    left: 98px;
+    bottom: 30px;
+    
+    color: black;
+}
+.rightt h1 {
+    
+    font-size: 20px;
+}
+.footerr {
+    position: relative;
+    top: 150px;
+    background-color: #3c7ab7;
+    width: 100%;
+    height: 100px;
+}
+.foott {
+    position: relative;
+    text-align: left;
+    left: 150px;
+    top: 30px;
+    font-size: small;
+
+}
+.footerr a {
+    color: white;
+    border: 12px solid transparent;
+    width: 70px;
+    height: 50px;
+}
+.footerr a:hover {
+   background-color: white;
+}

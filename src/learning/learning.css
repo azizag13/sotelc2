@@ -1,0 +1,101 @@
+.learn {
+    position: relative;
+    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./back33.jpg);
+    background-attachment: fixed;
+    height: 150vh;
+}
+.soft-titlee {
+    position: relative;
+    left: 150px;
+    top: 90px;
+    background-color: white;
+    text-align: left;
+    width: 720px;
+    height: 850px;
+}
+.soft-titlee p {
+    position: relative;
+    bottom: 50px;
+    color: #1d2127cc;
+    font-size: 18px;
+    width: 550px;
+}
+.soft-titlee h1 {
+    font-size: 70px;
+    position: relative;
+    bottom: 40px;
+}
+.soft-titlee a {
+    position: relative;
+    bottom: 70px;
+}
+.learn-cards {
+    position: relative;
+    top: 135px;
+    width: 100%;
+    height: 100%;
+    background-color: #efefef;
+}
+.learn-cards h1 {
+    position: relative;
+    font-size: 80px;
+    text-align: left;
+    top: 70px;
+    left: 100px;
+}
+.card {
+    position: relative;
+    top: 100px;
+}
+.card-body {
+    text-align: left;
+    width: 250px;
+    height: 700px;
+    
+}
+.card-text {
+    line-height: 2;
+    color: #1d2127cc;
+}
+.card-title {
+    font-size: 25px;
+}
+.card2 {
+    position: relative;
+    top: 50px;
+}
+.card3 {
+    position: relative;
+    top: 95px;
+}
+.card4 {
+    position: relative;
+    top: 150px;
+}
+.card5 {
+    position: relative;
+    top: 200px;
+}
+.card5 p {
+    width: 300px;
+}
+.card6 {
+    position: relative;
+    top: 250px;
+}
+.card7 {
+    position: relative;
+    top: 300px;
+}
+.card8 {
+    position: relative;
+    top: 350px;
+}
+.card9 {
+    position: relative;
+    top: 400px;
+}
+.foot-card{
+    position: relative;
+    top: 8600px;
+}

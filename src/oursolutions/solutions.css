@@ -1,0 +1,168 @@
+.sol-back {
+    position: relative;
+    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./10.jpg);
+    background-attachment: fixed;
+    height: 90vh;
+}
+.sol-back a {
+    position: relative;
+    top: 30px;
+}
+.pdp {
+    position: relative;
+    width: 530px;
+    height: 360px;
+    right: 250px;
+    top: 168px;
+    
+}
+.titles ul li p {
+  color:   #1d2127cc;
+}
+.our-title h1 {
+    text-align: left;
+    font-size: 45px;
+}
+.pdp1 {
+    position: relative;
+    width: 530px;
+    height: 360px;
+    left: 340px;
+    bottom: 70px;
+}
+.our-title1 {
+    position: relative;
+    bottom: 250px;
+    right: 560px;
+}
+.our-title1 h1 {
+    text-align: left;
+}
+.pdp2 {
+    position: relative;
+    width: 530px;
+    height: 360px;
+    right: 230px;
+    bottom: 300px;
+}
+.our-title2 {
+    position: relative;
+    bottom: 400px;
+    left: 30px;
+}
+.our-title2 h1 {
+    text-align: left;
+}
+.our-title3 {
+    position: relative;
+    bottom: 550px;
+    right: 550px;
+}
+.our-title3 h1 {
+    text-align: left;
+}
+.pdp3 {
+    position: relative;
+    position: relative;
+    width: 530px;
+    height: 360px;
+    left: 340px;
+    bottom: 490px;
+}
+.pdp4 {
+    position: relative;
+    width: 530px;
+    height: 360px;
+    right:  245px;
+    bottom: 580px;
+}
+.our-title4 {
+    position: relative;
+    bottom: 700px;
+    left: 25px;
+}
+.our-title4 h1 {
+    font-size: 50px;
+    text-align: left;
+}
+.pdp5{
+    position: relative;
+    width: 530px;
+    height: 360px;
+    left:  330px;
+    bottom: 830px;
+}
+.our-title5 {
+    position: relative;
+    right: 560px;
+    bottom: 900px;
+}
+.our-title5 {
+    text-align: left;
+}
+.pdp6{
+    position: relative;
+    width: 530px;
+    height: 360px;
+    right:  250px;
+    bottom: 990px;
+}
+.our-title6 {
+    position: relative;
+    bottom: 1100px;
+}
+.our-title6 h1 {
+    font-size: 50px;
+    text-align: left;
+}
+.pdp7 {
+    position: relative;
+    width: 530px;
+    height: 360px;
+    left:  340px;
+    bottom: 1150px;
+
+}
+.our-title7 {
+    position: relative;
+    right: 550px;
+    bottom: 1350px;
+}
+.our-title7 h1 {
+    font-size: 50px;
+    text-align: left;
+}
+.pdp8 {
+    position: relative;
+    width: 530px;
+    height: 360px;
+    right:  250px;
+    bottom: 1470px;
+}
+.our-title8 {
+    position: relative;
+    bottom: 1550px;
+    left: 30px;
+}
+.our-title8 h1 {
+    text-align: left;
+}
+.pdp9 {
+    position: relative;
+    width: 530px;
+    height: 360px;
+    left: 350px;
+    bottom: 1300px;
+
+}
+.our-title9 {
+    position: relative;
+    right: 550px;
+    bottom: 1700px;
+}
+.our-title9 {
+    text-align: left;
+}
+.black {
+    color: black;
+}

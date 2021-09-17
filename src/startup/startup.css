@@ -1,0 +1,24 @@
+.startup {
+    position: relative;
+    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./back33.jpg);
+    background-attachment: fixed;
+    height: 90vh;
+}
+.web {
+    position: relative;
+    width: 530px;
+    height: 360px;
+    top: 420px;
+    right: 280px;
+}
+.start-title {
+    position: relative;
+    top: 190px;
+}
+.start-title {
+    text-align: left;
+}
+.opp {
+   position: relative;
+   top: 650px;
+}
