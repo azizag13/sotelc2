@@ -1,20 +1,23 @@
-import React from 'react'
-import './solutions.css'
+import React from 'react';
+import './solutions.css';
+import { useTranslation } from 'react-i18next';
 
 function Solutions() {
+    const {t, i18n} = useTranslation();
+
     return (
         <div>
             <div class="sol-back">
             <div class="soft-title">
                <div class="one">
-               <h1>Our Solutions</h1>
-               <p>
-               Consulting  and coaching  for  implementing IT solutions provided by International platforms 
-          <br/>
-          <br/>
-               Design, editing and implementing specific solutions that you can integrate into your information system
-             </p>
-               <a href="/contactus" class="btn btn-primary">CONTACT US</a>
+               <h1>{t('F7')}</h1>
+               <p class="A1">
+                   {t('A1')}
+                   </p>
+                 <p class="A2">
+              {t('A2')}
+                  </p>
+               <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
 
                </div>
            </div>
@@ -22,20 +25,18 @@ function Solutions() {
             <img class="pdp" src="16.jpg" alt=""/>
             <div class="our-title">
             <div class="titles">
-                <h1><b>Planning and forecasting module:</b></h1>
+                <h1 class="A3"><b>{t('A3')}</b></h1>
                 <p>
-                This module will Extract, Transform and Load  needed data for conducting  predictive and planning tasks:
-                <br/>
-                <br/>
+           <p class="A31">{t('A31')}</p>
                 <ul>
-                    <li>Extract and transform relevant data on the evolution of the International Market enabling analysis of the supply and demand and your competitive position for each of your products and raw materials</li>
-                    <li>Identify the target market and product segments and conduct competitive benchmarking analysis  determining your comparative advantage in  these segments </li>
-                    <li>Establish a competitive and technology watch system tracking changes in technology and competition </li>
-                    <li>Design of price comparison tools </li>
-                    <li>Risk analysis of market  fluctuations related to your products and  raw materials, energy, HR,  currency and financial derivatives</li>
-                    <li>Issue alerts and notifications for decision support</li>
-                    <li>Issue and update  Production,  Sales and purchasing Plans </li>
-                    <a href="/our-solutions"><b>DISCOVER MORE</b></a>
+                    <li class="A4">{t('A4')}</li>
+                    <li class="A5"> {t('A5')} </li>
+                    <li class="A6"> {t('A6')} </li>
+                    <li class="A7"> {t('A7')} </li>
+                    <li class="A8">{t('A8')}</li>
+                    <li class="A9"> {t('A9')} </li>
+                    <li class="A10"> {t('A10')} </li>
+                    <a href="/our-solutions"><b> {t('H6')} </b></a>
 
                 </ul>
                 </p>
@@ -44,22 +45,21 @@ function Solutions() {
             <img class="pdp1" src="15.jpg" alt=""/>
             <div class="our-title1">
             <div class="titles">
-                <h1><b>Operational Business Intelligence Module :</b></h1>
+                <h1 class="B1"><b> {t('B1')} </b></h1>
                 <p>
-                This module  provides  for Operational Decision Making, Key Performance Indicators (KPIs) tracking and evaluating  in real-time  the followings:
-                <br/>
-                <br/>
+              <p class="B2" > {t('B2')} </p>
+            
                 <ul>
-                    <li>Sales, purchasing, production and  inventory </li>
-                    <li>Efficiency of production equipment’s by plant, production line, machine and part in terms of production quantity and related consumption and waste of  energy and raw materials by production line</li>
-                    <li>Efficiency and cost of curative and preventive maintenance </li>
-                    <li>Quality defaults and time spent in comparison with standard by production line</li>
-                    <li>Recovery of customer and supplier credits and payments</li>
-                    <li>Missing and return deliveries, non-conforming products and late deliveries</li>
-                    <li>Efficiency of Customer relations and supplier relations</li>
-                    <li>Efficiency of financial balances </li>
-                    <li>Quality control and efficiency monitoring and traceability through barcode readers or censors, metrics or IoT.</li>
-                    <a href="/our-solutions"><b>LEARN MORE</b></a>
+                    <li class="B3"> {t('B3')} </li>
+                    <li class="B4">{t('B4')}</li>
+                    <li class="B5">{t('B5')}</li>
+                    <li class="B6">{t('B6')}</li>
+                    <li class="B7">{t('B7')}</li>
+                    <li class="B8">{t('B8')}</li>
+                    <li class="B9">{t('B9')}</li>
+                    <li class="B10">{t('B10')}</li>
+                    <li class="B11">{t('B11')}</li>
+                    <a href="/our-solutions"><b>{t('B')}</b></a>
 
                 </ul>
                 </p>
@@ -68,20 +68,19 @@ function Solutions() {
             <img class="pdp2" src="14.jpg" alt=""/>
             <div class="our-title2">
             <div class="titles">
-                <h1><b>Strategic Business Intelligence Module:</b></h1>
+                <h1 class="C"><b> {t('C')} </b></h1>
                 <p>
-                This module provides quantitative and qualitative indicators for strategic decision making based on the following: 
-                <br/>
-                <br/>
+            <p class="C1"> {t('C1')} </p>
+                
                 <ul>
-                    <li>Strategic watch and intelligence </li>
-                    <li>Goal tree analysis, SMART and PESTEL analysis </li>
-                    <li>Balance Scorecards  </li>
-                    <li>SWOT and Value Chain Analysis  and Benchmarking</li>
-                    <li>Feasibility studies </li>
-                    <li>GANT and PERT  flow charts</li>
-                    <li>Nash Equilibrium Model, Gravity Model and General Equilibrium Model for trade negotiation  and forecasting </li>
-                    <a href="/our-solutions"><b>DISCOVER MORE</b></a>
+                    <li class="C2"> {t('C2')} </li>
+                    <li class="C3"> {t('C3')} </li>
+                    <li class="C4"> {t('C4')}  </li>
+                    <li class="C5"> {t('C5')} </li>
+                    <li class="C6"> {t('C6')} </li>
+                    <li class="C7">  {t('C7')} </li>
+                    <li class="C8"> {t('C8')} </li>
+                    <a href="/our-solutions"><b> {t('H6')} </b></a>
 
                 </ul>
                 </p>
@@ -90,16 +89,15 @@ function Solutions() {
             <img class="pdp3" src="13.jpg" alt=""/>
             <div class="our-title3">
             <div class="titles">
-                <h1><b>Financial  Data Mining module:</b></h1>
+                <h1 class="D"><b> {t('D')} </b></h1>
                 <p>
-                This module will: 
-                <br/>
-                <br/>
+              <p class="D1">  {t('D1')} </p>
+                
                 <ul>
-                    <li>Extract unstructured data from your ERP with regard to Audit, Accounting, Finance quotation and invoice edition and logistic functions,  </li>
-                    <li>Transform these data to load indicators that enable to provide insights on customers, competitors, suppliers, prices of all used services and  goods</li>
-                    <li>Complement with other external and internal data for editing indicators for decision making </li>
-                    <a href="/our-solutions"><b>LEARN MORE</b></a>
+                    <li class="D2"> {t('D2')}  </li>
+                    <li class="D3"> {t('D3')} </li>
+                    <li class="D4"> {t('D4')} </li>
+                    <a href="/our-solutions"><b>{t('B')}</b></a>
 
                 </ul>
                 </p>
@@ -108,19 +106,18 @@ function Solutions() {
                 <img class="pdp4" src="12.jpg" alt=""/>
                 <div class="our-title4">
                 <div class="titles">
-                <h1><b>Product Data Management Module:</b></h1>
+                <h1 class="D5"><b> {t('D5')} </b></h1>
                 <p>
-                This Module will build your Product Data Mart and  provide, per product, and  in real-time,  technical flow sheets detailing: 
-                <br/>
-                <br/>
+             <p class="D6" > {t('D6')} </p>
+            
                 <ul>
-                    <li> Technical specification, manufacturing and engineering  process and used resources: machine, human resources,  energy, telecommunication and raw materials in quantity and value  </li>
-                    <li>Step by step online learning for establishing customized product standards and objectives for each used resources </li>
-                    <li>Allowed and achieved Quantity and Cost of used resources </li>
-                    <li>Comparison of achieved cost with standards and objectives tracking  waste, production defaults, and inefficiencies of used resources telecommunication and determining break-even point in accordance with used and nominal production capacity </li>
-                    <li>Needed data for pricing and providing quotations</li>
+                    <li class="D7">  {t('D7')}  </li>
+                    <li class="D8"> {t('D8')} </li>
+                    <li class="D9"> {t('D9')} </li>
+                    <li class="D10"> {t('D10')} </li>
+                    <li class="D11"> {t('D11')} </li>
 
-                    <a href="/our-solutions"><b>DISCOVER MORE</b></a>
+                    <a href="/our-solutions"><b> {t('H6')} </b></a>
 
                 </ul>
                 </p>
@@ -129,19 +126,18 @@ function Solutions() {
                 <img class="pdp5" src="11.jpg" alt=""/>
                 <div class="our-title5">
                 <div class="titles">
-                <h1><b>Quotation, billing and invoicing module:</b></h1>
+                <h1 class="J"><b> {t('J')} </b></h1>
                 <p>
-                This module will build your Sales Data Mart and provide in real-time: 
-                <br/>
-                <br/>
+               <p class="J1"> {t('J1')} </p>
+                
                 <ul>
-                    <li> Automated quotations   </li>
-                    <li>Customer order tracking including editing of alerts and notifications  </li>
-                    <li>Invoicing and editing and tracking of delivery notes and payment request and related alerts and notifications  </li>
-                    <li>Door to door transport management and tracking from your store to that of the customer </li>
+                    <li class="J2"> {t('J2')}   </li>
+                    <li class="J3"> {t('J3')}  </li>
+                    <li class="J4"> {t('J4')}  </li>
+                    <li class="J5"> {t('J5')} </li>
                     
 
-                    <a href="/our-solutions"><b>LEARN MORE</b></a>
+                    <a href="/our-solutions"><b>{t('B')}</b></a>
 
                 </ul>
                 </p>
@@ -150,16 +146,15 @@ function Solutions() {
                 <img class="pdp6" src="10.jpg" alt=""/>
                 <div class="our-title6">
                 <div class="titles">
-                <h1><b>Analytical Cost Planning & Budgeting Module </b></h1>
+                <h1 class="J6"><b> {t('J6')} </b></h1>
                 <p>
-                This module will build your cost accounting and budgeting data mart and  provide in real-time  the following: 
-                <br/>
-                <br/>
+             <p class="J7"> {t('J7')} </p>
+                
                 <ul>
-                    <li>Organize your Cost Accounting System in a manner to provide in real-time for each business unit & profit and cost centre achieved performance in comparison with standard and targeted objectives</li>
-                    <li> Automize your Cost Accounting System and build  a data mart  enabling  provide Key Performance Indicators  tracking achievement of each business unit and profit and cost centre and assessing the performance</li>
-                    <li>Technical assistance,  coaching and step by step e-learning for setting up targeted objectives and standards for each business unit and profit and cost centre</li>
-                    <a href="/our-solutions"><b>DISCOVER MORE</b></a>
+                    <li class="J8"> {t('J8')} </li>
+                    <li class="J9">  {t('J9')} </li>
+                    <li class="J10"> {t('J10')} </li>
+                    <a href="/our-solutions"><b>{t('H6')}</b></a>
 
                 </ul>
                 </p>
@@ -168,19 +163,18 @@ function Solutions() {
                 <img class="pdp7" src="website.jpg" alt=""/>
                 <div class="our-title7">
                 <div class="titles">
-                <h1><b>Design and implementation of your  automation operational plan AOP</b></h1>
+                <h1 class="N"><b> {t('N')} </b></h1>
                 <p>
-                We are endowed with needed expertise and sound partners for designing and implementing your automation operational plan AOP including:  
-                <br/>
-                <br/>
+           <p class="N1"> {t('N1')} </p>
+                
                 <ul>
-                    <li>Overview of the current situation and gap analysis with regard procedure manual, organisation and management and information system </li>
-                    <li>Recommendations of potential processes that may be automated </li>
-                    <li>Cost Advantages Analysis of recommended automation actions </li>
-                    <li>Design an automation Operational Plan identifying priority actions  and formulating   the pipeline of opportunities and the scalability of the processes to be selected for automation </li>
-                    <li>Design and  set up the  organization structure and   Institutional Strengthening & Capacity Building Program for the  AOP  implementation</li>
-                    <li>Formulate  your implementation time frame and the AOP  Budget</li>
-                    <a href="/our-solutions"><b>LEARN MORE</b></a>
+                    <li class="N2"> {t('N2')} </li>
+                    <li class="N3"> {t('N3')} </li>
+                    <li class="N4"> {t('N4')} </li>
+                    <li class="N5"> {t('N5')} </li>
+                    <li class="N6"> {t('N6')} </li>
+                    <li class="N7">  {t('N7')} </li>
+                    <a href="/our-solutions"><b>{t('B')}</b></a>
 
                 </ul>
                 </p>
@@ -189,17 +183,16 @@ function Solutions() {
                 <img class="pdp8" src="08.jpg" alt=""/>
                 <div class="our-title8">
                 <div class="titles">
-                <h1><b>DIGITAL MARKETING SOLUTIONS</b></h1>
+                <h1 class="N8" ><b> {t('N8')} </b></h1>
                 <p>
-                We provide in partnership with Digital Platforms, Marketing Analytics and  Marketing content editing for  branding and advertising to include:   
-                <br/>
-                <br/>
+             <p class="N9" >  {t('N9')} </p>
+                
                 <ul>
-                    <li>Extract, Transform and Load to Marketing Data Mart, needed data for establishing your communication strategy and action plan </li>
-                    <li>Design Mercurial and price comparison </li>
-                    <li>Conduct Data and Marketing analytics for customer insights and behaviour and improving user experience</li>
-                    <li>Development of marketing content for e-commerce platforms, newsletters, blogs, promo video, networking, dialogue spaces on platforms and social networks </li>
-                    <a href="/our-solutions"><b>DISCOVER MORE</b></a>
+                    <li class="N10"> {t('N10')} </li>
+                    <li class="N11"> {t('N11')} </li>
+                    <li class="N12">  {t('N12')} </li>
+                    <li class="N13"> {t('N13')} </li>
+                    <a href="/our-solutions"><b>{t('H6')}</b></a>
 
                 </ul>
                 </p>
@@ -208,40 +201,33 @@ function Solutions() {
                 <img class="pdp9" src="06.jpg" alt=""/>
                 <div class="our-title9">
                 <div class="titles">
-                <h1><b>DIGITAL FINANCE SOLUTIONS</b></h1>
+                <h1 class="P"><b> {t('p')} </b></h1>
                 <p>
-                We are endowed with the needed expertise to automate B to B financing services with key accounts and MSMEs for the following processes:   
-                <br/>
-                <br/>
-               <p class="black" >For digital lending process, we provide software applications for: </p>
-                <br/>
-        
+             <p class="P1">  {t('P1')}  </p>
+                
+               <p class="black" > {t('black')} </p>
                 <ul>
-                    <li>Transforming digital loan applications into a fully automated process </li>
-                    <li>Downloading and uploading required documents </li>
-                    <li>Tracking the different stages of the loan approval process</li>
-                    <li>Automate the design of   investment profitability study, restructuring plan,  cash flow & working capital planning and monitoring, financial diagnosis, due diligence & automated full-scale auditing </li>
-                    <li>Automate delivery of the loan repayment  schedule </li>
-                    <li>Paperless and reduced  time to approval</li>
-                    <li>Faster mortgage management procedure </li>
-                    <li>Core banking system integration, recording in a digital registry and for each corporate all available updated data and legal documents eliminating data request duplication</li>
-                    <li>Tracking customers’ borrowing experience</li>
+                    <li class="P2"> {t('P2')} </li>
+                    <li class="P3"> {t('P3')} </li>
+                    <li class="P4"> {t('P4')} </li>
+                    <li class="P5"> {t('P5')} </li>
+                    <li class="P6"> {t('P6')} </li>
+                    <li class="P7"> {t('P7')} </li>
+                    <li class="P8"> {t('P8')} </li>
+                    <li class="P9"> {t('P9')} </li>
+                    <li class="P10"> {t('P10')} </li>
                     <br/>
-                    <br/>
-                    <p class="black">For implementing Digital Banking ERPs we offer for financial institutions, investors and businesses: </p>
+
+                    <p class="black"> <p class="P11"> {t('P11')} </p> </p>
                     <br/>
                     
-                    <li>Due diligence to assess the transparency of data and the real value of company assets;</li>
-                    <li>Parameters for monitoring commitments and risks incurred by financial investments, bank loans, suppliers and others on behalf of financial institutions, investors, Bureau loans, Credit Insurance Companies, factoring companies, credit agencies recovery; </li>
-                    <li>Indicators for monitoring changes in the prices of stocks, bonds and other financial securities;</li>
-                    <li>Indicators for monitoring changes in the prices of currencies and fluctuating products;</li>
-                    <li>Indicators for monitoring and evaluating company performance "KPIs" and risks;</li>
-                    <li>Benchmarking tools based on competitiveness indicators; 
-
-Predictive tools for predicting changes in performance indicators to assess the risks and potential for growth and competitiveness:
-
-"DashBoard" decision support tools and performance and risk comparators based on a range of predefined scenarios and impact studies based on sensitive analysis</li>
-                    <a href="/our-solutions"><b>LEARN MORE</b></a>
+                    <li class="P12"> {t('P12')} </li>
+                    <li class="P13"> {t('P13')} </li>
+                    <li class="P14"> {t('P14')} </li>
+                    <li class="P15"> {t('P15')} </li>
+                    <li class="P16"> {t('P16')} </li>
+                    <li class="P17"> {t('P17')} </li>
+                    <a href="/our-solutions"><b>{t('B')}</b></a>
 
 
                 </ul>

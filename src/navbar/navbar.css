@@ -21,7 +21,7 @@
 .preheader ul li a {
     text-decoration-line: none;
     color: white;
-    margin: 18px;
+    margin: 15px;
 }
 .lg {
     position: relative;
@@ -70,13 +70,13 @@
     position: relative;
     text-align: center;
     list-style: none;
-    left: 520px;
+    left: 480px;
     bottom: 15px;
 }
 
 
 .flex  li a {
-    margin: 15px;
+    margin: 13px;
     text-decoration-line: none;
     color:  black ;
 
@@ -115,4 +115,9 @@
 .dropdown a:hover {
     background-color: white;
     color: #3c7ab7;
+}
+.trans {
+    position: relative;
+    bottom: 70px;
+    left: 150px;
 }

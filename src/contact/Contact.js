@@ -1,17 +1,21 @@
 import React from 'react';
-import './contact.css'
+import './contact.css';
+import { useTranslation } from 'react-i18next';
+
 
 function Contact() {
+    const {t, i18n} = useTranslation();
+
     return (
         <div class="contact">
-            <h1><b>Contact us</b></h1>
-            <p>Contact us about anything related to our company or services.
-             We'll do our best to get back to you as soon as possible
+            <h1><b>  {t('btn btn-primary')} </b></h1>
+            <p class="Z">
+                {t('Z')}
             </p>
             <form id="contactus_form" action="/website_form/" method="post" data-model_name="mail.mail" class="s_website_form container-fluid mt32" enctype="multipart/form-data" data-success_page="/contactus-thank-you">
                 <div class="form-group row form-field o_website_form_custom o_website_form_required_custom">
                     <div class="col-lg-3 col-md-4">
-                        <label class="col-form-label" for="Name"><b>Your Name</b></label>
+                        <label class="col-form-label" for="Name"><b class="Z1"> {t('Z1')} </b></label>
                     </div>
                     <div class="col-lg-7 col-md-8">
                         <input type="text" class="form-control o_website_form_input" name="Name" required=""/>
@@ -19,7 +23,7 @@ function Contact() {
                 </div>
                 <div class="form-group row form-field o_website_form_custom">
                     <div class="col-lg-3 col-md-4">
-                        <label class="col-form-label" for="Phone"><b>Phone Number</b></label>
+                        <label class="col-form-label" for="Phone"><b class="Z2"> {t('Z2')} </b></label>
                     </div>
                     <div class="col-lg-7 col-md-8">
                         <input type="text" class="form-control o_website_form_input" name="Phone"/>
@@ -35,7 +39,7 @@ function Contact() {
                 </div>
                 <div class="form-group row form-field o_website_form_custom">
                     <div class="col-lg-3 col-md-4">
-                        <label class="col-form-label" for="Partner Name"><b>Your Company</b></label>
+                        <label class="col-form-label" for="Partner Name"><b class="Z3"> {t('Z3')} </b></label>
                     </div>
                     <div class="col-lg-7 col-md-8">
                         <input type="text" class="form-control o_website_form_input" name="Partner Name"/>
@@ -43,7 +47,7 @@ function Contact() {
                 </div>
                 <div class="form-group row form-field o_website_form_required_custom">
                     <div class="col-lg-3 col-md-4">
-                        <label class="col-form-label" for="subject"><b>Subject</b></label>
+                        <label class="col-form-label" for="subject"><b class="Z4"> {t('Z4')} </b></label>
                     </div>
                     <div class="col-lg-7 col-md-8">
                         <input type="text" class="form-control o_website_form_input" name="subject" required=""/>
@@ -51,7 +55,7 @@ function Contact() {
                 </div>
                 <div class="form-group row form-field o_website_form_custom o_website_form_required_custom">
                     <div class="col-lg-3 col-md-4">
-                        <label class="col-form-label" for="Description"><b>Your Question</b></label>
+                        <label class="col-form-label" for="Description"><b class="Z5"> {t('Z5')} </b></label>
                     </div>
                     <div class="col-lg-7 col-md-8">
                         <textarea class="form-control o_website_form_input" name="Description" required=""></textarea>
@@ -67,7 +71,7 @@ function Contact() {
                 </div>
                 <div class="form-group row">
                     <div class="offset-lg-3 offset-md-4 col-md-8 col-lg-7">
-                        <a href="#" class="btn btn-primary btn-lg o_website_form_send"><b>SEND</b></a>
+                        <a href="#" class="btn btn-primary btn-lg o_website_form_send"><b class="Z6"> {t('Z6')} </b></a>
                         <span id="o_website_form_result"></span>
                     </div>
                 </div>

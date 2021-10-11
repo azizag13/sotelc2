@@ -1,23 +1,25 @@
 import React from 'react';
 import './coworking.css';
+import { useTranslation } from 'react-i18next';
+
 
 function Coworking() {
+  const {t, i18n} = useTranslation();
+
     return (
         <div class="coworking">
             <div class="soft-title">
                <div class="one">
-               <h1>COWORKING SPACE</h1>
+               <h1 class="U"> {t('U')} </h1>
                <p>
-               Sotelco provides start ups, new starting investors,  consultants, lawyers  and chartered accountants:
-          <br/>
-          <br/>
+             <p class="U1"> {t('U1')} </p>
           <ul>
-              <li>Dedicated desk or website and  high-Tech infrastructure</li>
-              <li>Networking and recreation facilities</li>
-              <li>Administrative services</li>
+              <li class="U2"> {t('U2')} </li>
+              <li class="U3"> {t('U3')} </li>
+              <li class="U4"> {t('U4')} </li>
           </ul>
               </p>
-               <a href="/contactus" class="btn btn-primary">CONTACT US</a>
+               <a href="/contactus" class="btn btn-primary"> {t('btn btn-primary')} </a>
 
                </div>
            </div>
@@ -25,43 +27,43 @@ function Coworking() {
          <div class="cercle">
          <i class="fa fa-flag" aria-hidden="true"></i>
          </div>
-         <h4>Accounting & financial services</h4>
-         <p>Accounting data entry: invoice capture, order entry, banking statement  collection, accounting review  preparation of financial statement & accounting audit and financial consulting services, and banking services</p>
+         <h4 class="U5">  {t('U5')} </h4>
+         <p class="U6"> {t('U6')} </p>
            </div>
            <div class="grid-cow">
          <div class="cercle">
          <i class="fa fa-files-o" ></i>
          </div>
-         <h4>Fiscal services</h4>
-         <p>Assistance in tax matters: Tax advice, preparation of VAT returns and other tax returns</p>
+         <h4 class="U7"> {t('U7')} </h4>
+         <p class="U8"> {t('U8')} </p>
            </div>
            <div class="grid-cow">
          <div class="cercle">
          <i class="fa fa-trash" aria-hidden="true"></i>
          </div>
-         <h4>Legal services </h4>
-         <p>Issuing of commercial and labour contracts, Registration of company documents and deeds, company creation procedure and performing of legal formalities and legal advice</p>
+         <h4 class="U9"> {t('U9')} </h4>
+         <p class="U10"> {t('U10')} </p>
            </div>
            <div class="grid-cow2">
                <div class="rectangle">
            <i class="fa fa-magic" ></i>
          </div>
-         <h4>Human Resources Services </h4>
-         <p>Entering payroll operations and social charges, Management of labour contracts, social security declaration, bonus management, health insurance management, Head Hunting, Training in Talent Management.</p>
+         <h4 class="U11"> {t('U11')} </h4>
+         <p class="U12"> {t('U12')} </p>
            </div>
            <div class="grid-cow2">
                <div class="rectangle">
            <i class="fa fa-eyedropper" ></i>
          </div>
-         <h4>Secretarial services </h4>
-         <p>Welcoming clients on-site or through call centre, Monitoring of your Agenda Printing, making photocopying and binding </p>
+         <h4 class="U13"> {t('U13')} </h4>
+         <p class="U14"> {t('U14')} </p>
            </div>
            <div class="grid-cow2">
                <div class="rectangle">
            <i class="fa fa-picture-o" ></i>
          </div>
-         <h4>Company creation services </h4>
-         <p>Municipal construction permit,  Subscription and connection to electricity, gas, water and other utilities, company creation LLP to other forms</p>
+         <h4 class="U15"> {t('U15')} </h4>
+         <p class="U16"> {t('U16')} </p>
            </div>
            
             <div class="info">

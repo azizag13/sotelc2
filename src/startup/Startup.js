@@ -1,43 +1,43 @@
 import React from 'react';
 import './startup.css';
+import { useTranslation } from 'react-i18next';
+
 
 function Startup() {
+    const {t, i18n} = useTranslation();
+
     return (
         <div>
             <div class="startup">
             <div class="soft-title">
             <div class="one">
-               <h1>Start-up Accelerator</h1>
+               <h1 class="O"> {t('O')} </h1>
                <p>
-               Sotelco will support your start-ups through out the life cycle of your    development process since   idea conceptualization till project scalability 
+          <p class="O1" >  {t('O1')} </p>
              </p>
-             <br/>
-             <br/>
-               <a href="/contactus" class="btn btn-primary">CONTACT US</a>
+            
+               <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
 
                </div>
                </div>
                <img class="web" src="website.jpg" alt=""/>
                <div class="start-title">
                <div class="titles">
-                <h1><b>Start-ups Accelerator</b></h1>
+                <h1 class="O2"><b>{t('O')}</b></h1>
                 <p>
-                Our High-Tech  Start-ups Accelerator will dedicate our infrastructure and that of our partners to support  you performing: 
-                <br/>
-                <br/>
+             <p class="O3"> {t('O3')} </p>
+                
                 <ul>
-                    <li>Digitize the relationship  of high-tech B2B start-ups with financial institutions to meet their financing needs  of equity, medium-run credit for investment and short run loans for working capital </li>
-                    <li>Identify and enhance entrepreneurship skills through providing soft skill training, marketing and on the job technical training and mentoring and customized consulting services </li>
-                    <li>Assist  Start-ups in ideation  research design, programming, testing setting up and maintenance of applications, software and open  Application Programming Interface,  that  Digitize backward and forward linkages between financial institutions,  Banks’ corporate customers’, MSMEs  to innovate processes, products and business models through investments  in helping integrating RAP in proprietary and or cloud software.</li>
-                    <li>Assist start-ups integration  into  AP Market Places </li>
-                    <li>Provide for Start-ups a community development platform developing:</li>
-                    <li>Virtual events, dialogue and networking  between start-ups, big companies  and SMEs outreaching innovative solutions and partnerships </li>
-                    <li>Clustering for sales and marketing through conducting  market research, trade missions and  digital marketing </li>
-                    <li> Integrating collaborative models, simulations using virtual reality; and  servitization business models as well.</li>
-                    
-
+                    <li class="O4"> {t('O4')} </li>
+                    <li class="O5"> {t('O5')} </li>
+                    <li class="O6"> {t('O6')} </li>
+                    <li class="O7"> {t('O7')} </li>
+                    <li class="O8"> {t('O8')} </li>
+                    <li class="O9"> {t('O9')} </li>
+                    <li class="O10"> {t('O10')} </li>
+                    <li class="O11"> Integrating collaborative models, simulations using virtual reality; and  servitization business models as well.</li>
                 </ul>
-                <a href="/our-solutions"><b>DISCOVER MORE</b></a>
+                <a href="/our-solutions"><b>{t('H6')}</b></a>
                 </p>
                 </div>
                </div>

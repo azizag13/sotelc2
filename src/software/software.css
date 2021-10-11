@@ -10,8 +10,8 @@
     top: 90px;
     background-color: white;
     text-align: left;
-    width: 710px;
-    height: 430px;
+    width: 750px;
+    height: 480px;
 }
 .soft-title p {
     width: 600px;
@@ -48,13 +48,17 @@
     width: 530px;
     height: 358px;
     right: 260px;
-    top: 135px;
+    top: 100px;
 }
 .titles {
     position: relative;
     width: 570px;
     left: 720px;
     bottom: 310px;
+}
+.soft-title2 {
+    position: relative;
+    top: 20px;
 }
 .soft-title2  h1 {
     text-align: left;

@@ -1,15 +1,18 @@
-import React from 'react'
-import './software.css'
+import React from 'react';
+import './software.css';
+import { useTranslation } from 'react-i18next';
 
 function Software() {
+    const {t, i18n} = useTranslation();
+
     return (
         <div>
             <div class="softwareintro">
            <div class="soft-title">
                <div class="one">
-               <h1>Software Development</h1>
-               <p>Sotelco is an integrated Business Intelligence, Digital financing & marketing project located in the Smart Technology Park "Al ghazala" (www.elgazala.tn) and  endowed with  a Four  open space platforms, of 650 m2, that may  host  400 work stations and equipped with needed connectivity hard ware, electricity and air conditioning in accordance with the state of the art technology. </p>
-               <a href="/contactus" class="btn btn-primary">CONTACT US</a>
+               <h1>{t('F6')}</h1>
+               <p class="K1">{t('K1')} </p>
+               <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
 
                </div>
            </div>
@@ -17,20 +20,18 @@ function Software() {
             <div class="soft-title2">
                 <img src="09.jpg" alt=""/>
                <div class="titles">
-                <h1>DATA MINING & BUSINESS INTELLIGENCE</h1>
+                <h1 class="K2">{t('K2')}</h1>
                 <p>
-                Sotelco provided end to end  automated predictive, planning and BI tasks  through  the following software modules:
-                <br/>
-                <br/>
+               <p class="K3">{t('K3')}</p>
                 <ul>
-                    <li>Planning and forecasting module:</li>
-                    <li>Business Intelligence Module For Strategic Decision Making </li>
-                    <li>Financial  Data Mining module extracting and transforming  unstructured data </li>
-                    <li>Product Data Management Module </li>
-                    <li>Quotation, billing and invoicing module</li>
-                    <li>Analytical Cost Planning & Budgeting Module</li>
-                    <li>Design your strategy and  automation operational plan AOP</li>
-                    <a href="/our-solutions"><b>READ MORE</b></a>
+                    <li class="K4">{t('K4')}</li>
+                    <li class="K5">{t('K5')} </li>
+                    <li class="K6">{t('K6')} </li>
+                    <li class="K7">{t('K7')}</li>
+                    <li class="K8">{t('K8')}</li>
+                    <li class="K9">{t('K9')}</li>
+                    <li class="K10">{t('K10')}</li>
+                    <a href="/our-solutions"><b>{t('a')}</b></a>
 
                 </ul>
                 </p>
@@ -41,19 +42,17 @@ function Software() {
                 
                 <div class="soft-title3">
                 <div class="titles">
-                <h1>Digital finance</h1>
+                <h1 class="E1">{t('E1')}</h1>
                 <p>
-                We are endowed with the needed expertise to automate B to B financing services with key accounts and MSMEs for the following processes:
-                <br/>
-                <br/>
+               <p class="E2"> {t('E2')}</p>
                 <ul>
-                    <li>Short-term loans to cover overdraft facilities, inventory financing, pre-financing of contracts, harvest credit</li>
-                    <li>Investment financing to cover venture capital, leasing, factoring, mid-term credit </li>
-                    <li>Financial Inclusion tackling less-favored regions through providing  seed capitals and loans for small farmers and  micro-companies within subcontracting and cultivation contracts  </li>
-                    <li>Financing subcontracting contracts for SMEs ensured by big accounts Mortgages management </li>
-                    <li>Digital banking services for enterprises  such as wealth management, insurance & prebuilt digital solutions, alerts and notifications</li>
-                    <li>Supporting International Trade operations: International payment and financing of international transactions  and Forward and spot purchases and sales of foreign currencies</li>
-                    <a href="/our-solutions"><b>READ MORE</b></a>
+                    <li class="E3">{t('E3')}</li>
+                    <li class="E4">{t('E4')}</li>
+                    <li class="E5">{t('E5')}</li>
+                    <li class="E6">{t('E6')} </li>
+                    <li class="E7">{t('E7')}</li>
+                    <li class="E8">{t('E8')}</li>
+                    <a href="/our-solutions"><b>{t('a')}</b></a>
 
                 </ul>
                 </p>
@@ -62,18 +61,16 @@ function Software() {
             </div>
             <div class="soft-title4">
             <div class="titles">
-                <h1>Digital marketing</h1>
+                <h1 class="I1">{t('I1')}</h1>
                 <p>
-                In partnership with international platforms and omnichannel CRM, we provide:  
-                <br/>
-                <br/>
+            <p class="I2">  {t('I2')}  </p>
                 <ul>
-                    <li>Predictive data & Marketing Analytics and data mining for market research</li>
-                    <li>Data and Marketing analytics for customer insights and behaviour and improving user experience  </li>
-                    <li>Promo video creation, Branding and advertising </li>
-                    <li>Product Data Management Module </li>
-                    <li>Development of marketing content for newsletters, blogs, promo video, networking, dialogue spaces on platforms and social networks</li>
-                    <a href="/our-solutions"><b>READ MORE</b></a>
+                    <li class="I3"> {t('I3')} </li>
+                    <li class="I4" > {t('I4')} </li>
+                    <li class="I5"> {t('I5')} </li>
+                    <li class="I6"> {t('I6')} </li>
+                    <li class="I7"> {t('I7')} </li>
+                    <a href="/our-solutions"><b>{t('a')}</b></a>
 
                 </ul>
                 </p>
@@ -85,31 +82,28 @@ function Software() {
                    </div>
             </div>
             <div class="soft-title5">
-                <h3>SOTELCO has a large experience in European countries ( UK, Belgium, France, Netherlands and Switzerland) English,  Arabic,the Middle East and North African  countries (Gulf countries, UAE,  KSA, Jordan, Tunisia, Algeria, Egypt, Morocco, Libya, & Iraq)</h3>
+                <h3 class="I8">{t('I8')}</h3>
                 <br/>
                 <p>
-                SOUND BUSINESS EXPERIENCE IN THE FOLLOWING SECTORS:
-                <br/>
-                <br/>
-                
+            <p class="I9"> {t('I9')} </p>
                 <ul>
                     <li>ICT</li>
-                    <li>Professional services </li>
-                    <li>Trade & Logistics</li>
-                    <li>Health</li>
-                    <li>Training</li>
-                    <li>Financial facilities </li>
-                    <li>Textile, Garment & Footwear</li>
-                    <li>Tourism</li>
-                    <li>Automotive components</li>
-                    <li>Electric & Electronic sectors</li>
-                    <li>Wood & Furniture</li>
-                    <li>Agri-Business</li>
-                    <li>Ceramic</li>
-                    <li>Plastic</li>
-                    <li>Steel</li>
-                    <li>Chemicals, Pharmaceuticals & cosmetics</li>
-                    <li>Handicraft</li>
+                    <li class="M1"> {t('M1')} </li>
+                    <li class="M2">{t('M2')}</li>
+                    <li class="M3">{t('M3')}</li>
+                    <li class="M4"> {t('M4')} </li>
+                    <li class="M5"> {t('M5')} </li>
+                    <li class="M6">{t('M6')}</li>
+                    <li class="M">{t('M')}</li>
+                    <li class="M7">{t('M7')}</li>
+                    <li class="M8">{t('M8')}</li>
+                    <li class="M9">{t('M9')}</li>
+                    <li class="M10">{t('M10')}</li>
+                    <li class="M11">{t('M11')}</li>
+                    <li class="M12">{t('M12')}</li>
+                    <li class="M13">{t('M13')}</li>
+                    <li class="M14">{t('M14')}</li>
+                    <li class="M15">{t('M15')}</li>
                     
 
                     

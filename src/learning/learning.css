@@ -2,12 +2,12 @@
     position: relative;
     background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./back33.jpg);
     background-attachment: fixed;
-    height: 150vh;
+    height: 190vh;
 }
 .soft-titlee {
     position: relative;
     left: 150px;
-    top: 90px;
+    top: 80px;
     background-color: white;
     text-align: left;
     width: 720px;
@@ -15,7 +15,7 @@
 }
 .soft-titlee p {
     position: relative;
-    bottom: 50px;
+    bottom: 20px;
     color: #1d2127cc;
     font-size: 18px;
     width: 550px;
@@ -23,79 +23,83 @@
 .soft-titlee h1 {
     font-size: 70px;
     position: relative;
-    bottom: 40px;
+    bottom: 55px;
 }
 .soft-titlee a {
     position: relative;
-    bottom: 70px;
+    bottom: 20px;
 }
 .learn-cards {
     position: relative;
-    top: 135px;
+    top: 100px;
     width: 100%;
-    height: 100%;
-    background-color: #efefef;
+    height: 550%;
+    background-color: #eceef1;
 }
 .learn-cards h1 {
     position: relative;
+    top: 80px;
+    left: 40px;
     font-size: 80px;
     text-align: left;
-    top: 70px;
-    left: 100px;
+}
+.card-text {
+    text-align: left;
+    width: 250px;
+    height: 200px;
+}
+
+.foot-card{
+    position: relative;
+    top: 6000px;
 }
 .card {
     position: relative;
-    top: 100px;
+    align-items: center;
+    top: 300px;
+}
+.card img {
+    width: 18rem;
 }
 .card-body {
-    text-align: left;
-    width: 250px;
-    height: 700px;
-    
-}
-.card-text {
-    line-height: 2;
-    color: #1d2127cc;
-}
-.card-title {
-    font-size: 25px;
+    height: 200px;
 }
 .card2 {
     position: relative;
-    top: 50px;
+    top: 800px;
 }
 .card3 {
     position: relative;
-    top: 95px;
+    top: 1500px;
 }
 .card4 {
     position: relative;
-    top: 150px;
+    top: 2100px;
 }
 .card5 {
     position: relative;
-    top: 200px;
-}
-.card5 p {
-    width: 300px;
+    top: 2800px;
 }
 .card6 {
     position: relative;
-    top: 250px;
+    top: 3660px;
 }
 .card7 {
     position: relative;
-    top: 300px;
+    top: 4150px;
 }
 .card8 {
     position: relative;
-    top: 350px;
+    top: 4770px;
 }
 .card9 {
     position: relative;
-    top: 400px;
+    top: 5400px;
 }
-.foot-card{
+.foot-card h1 {
     position: relative;
-    top: 8600px;
+    font-size: 20px;
+    top: 3px;
+    left: 600px;
 }
+

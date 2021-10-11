@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import  './infrastruc.css';
 import {carousel} from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 function Infrastruc() {
+  const {t, i18n} = useTranslation();
     return (
         <div class="ourinfra">
      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -18,9 +20,9 @@ function Infrastruc() {
     <div class="carousel-item active">
       <img src="soo4.jpg" class="d-block w-100" alt="..."/>
       <div class="ourback">
-      <h2>E N JO Y A B LE  WORK ENVIRONMENT</h2>
-      <p>Sotelco offers a spacious and comfortable work environment, endowed with a cybercafé  cyber robotics and infrastructure meeting Health International Standards and equipped with needed IT and Connectivity hardware  in accordance with the state of the art technology</p>
-      <a href="/contactus" class="btn btn-primary">CONTACT US</a>
+      <h2>{t('G1')}</h2>
+      <p class="G2">{t('G2')}</p>
+      <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
       </div>
       
     </div>
@@ -28,9 +30,9 @@ function Infrastruc() {
     <img src="do.jpg" class="d-block w-100" alt="..."/>
         <div class="ourback2">
         <div class="ourback">
-      <h2>A LUXURIOUS SETTING</h2>
-      <p>SOTELCOO offers a luxurious, sober and professional environment to make you want to work and welcome your customers.</p>
-      <a href="/contactus" class="btn btn-primary">CONTACT US</a>
+      <h2 class="G3">{t('G3')}</h2>
+      <p class="G4">{t('G4')}</p>
+      <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
       </div>
         </div>
       
@@ -39,9 +41,9 @@ function Infrastruc() {
       <img src="soo2.jpg" class="d-block w-100" alt="..."/>
       <div class="ourback2">
         <div class="ourback">
-      <h2>LARGE PARKING</h2>
-      <p>Stop wasting your time looking for a parking space. We offer secure parking that can hold up to 300 spaces for our members and their guests.</p>
-      <a href="/contactus" class="btn btn-primary">CONTACT US</a>
+      <h2 class="G5">{t('G5')}</h2>
+      <p class="G60">{t('G6')}</p>
+      <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
       </div>
         </div>
     </div>
@@ -49,9 +51,9 @@ function Infrastruc() {
       <img src="soo1.jpg" class="d-block w-100" alt="..."/>
       <div class="ourback2">
         <div class="ourback">
-      <h2>MEETING ROOMS</h2>
-      <p>Our meeting rooms are designed to provide all the comfort necessary for the good conduct of meetings of 2 to 8 people. You can invite up to 7 people free of charge.</p>
-      <a href="/contactus" class="btn btn-primary">CONTACT US</a>
+      <h2 class="G7">{t('G7')}</h2>
+      <p class="G8">{t('G8')}</p>
+      <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
       </div>
         </div>
 
@@ -60,9 +62,9 @@ function Infrastruc() {
       <img src="soo6.jpg" class="d-block w-100" alt="..."/>
       <div class="ourback2">
         <div class="ourback">
-      <h2>TRAINING ROOMS</h2>
-      <p>ORGANIZE YOUR TRAINING, YOUR EVENTS AND YOUR SEMINARS IN OUR SPACES AT LOW COST.</p>
-      <a href="/contactus" class="btn btn-primary">CONTACT US</a>
+      <h2 class="G9">{t('G9')}</h2>
+      <p class="G10">{t('G10')}</p>
+      <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
       </div>
         </div>
     </div>
