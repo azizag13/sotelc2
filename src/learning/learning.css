@@ -1,7 +1,8 @@
 .learn {
     position: relative;
-    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./back33.jpg);
+    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./soo1.jpg);
     background-attachment: fixed;
+    background-size: cover;
     height: 190vh;
 }
 .soft-titlee {

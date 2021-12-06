@@ -59,20 +59,21 @@ function Navbar() {
                     <li>
                         <Link class="bb" to="/our-solutions" ><b class="F7">{t('F7')}</b></Link>
                     </li>
-                    <li>
-                    <div class="dropdown">
-  <a class="plus" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-  <i class="fa fa-plus" aria-hidden="true"></i>
-  </a>
-
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><Link to="/startup-accelerator" class="dropdown-item" ><b class="F8">{t('F8')}</b></Link></li>
-    <li><Link to="/e-learning" class="dropdown-item" ><b class="F9">{t('F9')}</b></Link></li>
-    <li><Link to="/coworking" class="dropdown-item" ><b class="F10">{t('F10')}</b></Link></li>
-    <li><Link to="/contactus" class="dropdown-item" ><b >CONTACT</b></Link></li>
-  </ul>
-</div>
-                    </li>
+  
+    <li>
+        <Link to="/startup-accelerator" class="bb"  ><b class="F8">{t('F8')}</b></Link>
+    </li>
+    <li>
+        <Link to="/e-learning" class="bb" ><b class="F9">{t('F9')}</b></Link>
+    </li>
+    <li>
+        <Link to="/coworking" class="bb" ><b class="F10">{t('F10')}</b></Link>
+    </li>
+    <li>
+        <Link to="/contactus" class="bb" ><b >CONTACT</b></Link>
+    </li>
+  
+                    
                 </ul>
             </div>
       

@@ -1,15 +1,18 @@
 .softwareintro {
     position: relative;
-    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./back33.jpg);
+    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./soo4.jpg);
     background-attachment: fixed;
-    height: 90vh;
+    height: 100vh;
+    background-size: cover;
+    
 }
 .soft-title {
     position: relative;
     left: 150px;
-    top: 90px;
+    top: 70px;
     background-color: white;
-    text-align: left;
+    text-align: justify;
+
     width: 750px;
     height: 480px;
 }
@@ -32,7 +35,7 @@
 .one a {
     position: relative;
     border-radius: 30px;
-    background-color: #d9534f;
+    background-color: #072a4d;
     color: white;
     border-style: hidden;
     
@@ -40,8 +43,8 @@
 }
 .one a:hover {
     background-color: white;
-    color: #c51d39;
-    border-style: #c51d39;
+    color: #072a4d;
+    border-style: #072a4d;
 }
 .soft-title2 img  {
     position: relative;
@@ -64,8 +67,9 @@
     text-align: left;
     font-size: 50px;
 }
+
 .titles ul li {
-    text-align: left;
+    text-align: justify;
     color: #1d2127e8;
     line-height: 1.5;
 }
@@ -171,9 +175,13 @@
 }
 .footers {
     position: relative;
-    background-color: #3c7ab7;
+    background-color: #030655;
     width: 100%;
     height: 80px;
+}
+.house2 {
+    position: relative;
+    bottom: 200px;
 }
 .foots {
     position: relative;

@@ -1,6 +1,8 @@
 import React from 'react';
 import './solutions.css';
 import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
+
 
 function Solutions() {
     const {t, i18n} = useTranslation();
@@ -17,7 +19,7 @@ function Solutions() {
                  <p class="A2">
               {t('A2')}
                   </p>
-               <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
+                  <Link to="/contactus" class="btn btn-primary">{t('btn btn-primary')}</Link>
 
                </div>
            </div>
@@ -36,7 +38,6 @@ function Solutions() {
                     <li class="A8">{t('A8')}</li>
                     <li class="A9"> {t('A9')} </li>
                     <li class="A10"> {t('A10')} </li>
-                    <a href="/our-solutions"><b> {t('H6')} </b></a>
 
                 </ul>
                 </p>
@@ -59,7 +60,7 @@ function Solutions() {
                     <li class="B9">{t('B9')}</li>
                     <li class="B10">{t('B10')}</li>
                     <li class="B11">{t('B11')}</li>
-                    <a href="/our-solutions"><b>{t('B')}</b></a>
+                   
 
                 </ul>
                 </p>
@@ -80,7 +81,6 @@ function Solutions() {
                     <li class="C6"> {t('C6')} </li>
                     <li class="C7">  {t('C7')} </li>
                     <li class="C8"> {t('C8')} </li>
-                    <a href="/our-solutions"><b> {t('H6')} </b></a>
 
                 </ul>
                 </p>
@@ -97,7 +97,6 @@ function Solutions() {
                     <li class="D2"> {t('D2')}  </li>
                     <li class="D3"> {t('D3')} </li>
                     <li class="D4"> {t('D4')} </li>
-                    <a href="/our-solutions"><b>{t('B')}</b></a>
 
                 </ul>
                 </p>
@@ -117,8 +116,6 @@ function Solutions() {
                     <li class="D10"> {t('D10')} </li>
                     <li class="D11"> {t('D11')} </li>
 
-                    <a href="/our-solutions"><b> {t('H6')} </b></a>
-
                 </ul>
                 </p>
                 </div>
@@ -135,10 +132,7 @@ function Solutions() {
                     <li class="J3"> {t('J3')}  </li>
                     <li class="J4"> {t('J4')}  </li>
                     <li class="J5"> {t('J5')} </li>
-                    
-
-                    <a href="/our-solutions"><b>{t('B')}</b></a>
-
+                  
                 </ul>
                 </p>
                 </div>
@@ -154,8 +148,6 @@ function Solutions() {
                     <li class="J8"> {t('J8')} </li>
                     <li class="J9">  {t('J9')} </li>
                     <li class="J10"> {t('J10')} </li>
-                    <a href="/our-solutions"><b>{t('H6')}</b></a>
-
                 </ul>
                 </p>
                 </div>
@@ -174,7 +166,6 @@ function Solutions() {
                     <li class="N5"> {t('N5')} </li>
                     <li class="N6"> {t('N6')} </li>
                     <li class="N7">  {t('N7')} </li>
-                    <a href="/our-solutions"><b>{t('B')}</b></a>
 
                 </ul>
                 </p>
@@ -192,7 +183,6 @@ function Solutions() {
                     <li class="N11"> {t('N11')} </li>
                     <li class="N12">  {t('N12')} </li>
                     <li class="N13"> {t('N13')} </li>
-                    <a href="/our-solutions"><b>{t('H6')}</b></a>
 
                 </ul>
                 </p>
@@ -201,7 +191,7 @@ function Solutions() {
                 <img class="pdp9" src="06.jpg" alt=""/>
                 <div class="our-title9">
                 <div class="titles">
-                <h1 class="P"><b> {t('p')} </b></h1>
+                <h1 class="P"><b> {t('P')} </b></h1>
                 <p>
              <p class="P1">  {t('P1')}  </p>
                 
@@ -227,7 +217,6 @@ function Solutions() {
                     <li class="P15"> {t('P15')} </li>
                     <li class="P16"> {t('P16')} </li>
                     <li class="P17"> {t('P17')} </li>
-                    <a href="/our-solutions"><b>{t('B')}</b></a>
 
 
                 </ul>
@@ -244,6 +233,59 @@ function Solutions() {
                        <a href="/aboutus">À propos</a>
                   </p>
               </div>
+              <div class="house3">
+              <div class="nav">
+        <div class="header">
+          <a href="/">
+            <img src="logo.png" class="logo" alt="Sotelco" />
+          </a>
+          <ul class="flex">
+            <li>
+              <Link class="bb" to="/">
+                {" "}
+                <b class="F4">{t("F4")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link class="bb" to="/our-infrastructure">
+                <b class="F5">{t("F5")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link class="bb" to="/software-development">
+                <b class="F6">{t("F6")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link class="bb" to="/our-solutions">
+                <b class="F7">{t("F7")}</b>
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/startup-accelerator" class="bb">
+                <b class="F8">{t("F8")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link to="/e-learning" class="bb">
+                <b class="F9">{t("F9")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link to="/coworking" class="bb">
+                <b class="F10">{t("F10")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link to="/contactus" class="bb">
+                <b>CONTACT</b>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
               <div class="footer">
                   <p class="foot">Copyright © SOTELCO</p>
                   <a class="gotop" href="#" ><i class="fa fa-arrow-up" aria-hidden="true"></i> </a>

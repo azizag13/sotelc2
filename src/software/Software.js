@@ -1,6 +1,7 @@
 import React from 'react';
 import './software.css';
 import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
 
 function Software() {
     const {t, i18n} = useTranslation();
@@ -12,8 +13,7 @@ function Software() {
                <div class="one">
                <h1>{t('F6')}</h1>
                <p class="K1">{t('K1')} </p>
-               <a href="/contactus" class="btn btn-primary">{t('btn btn-primary')}</a>
-
+               <Link to="/contactus" class="btn btn-primary">{t('btn btn-primary')}</Link>
                </div>
            </div>
             </div>
@@ -31,13 +31,13 @@ function Software() {
                     <li class="K8">{t('K8')}</li>
                     <li class="K9">{t('K9')}</li>
                     <li class="K10">{t('K10')}</li>
-                    <a href="/our-solutions"><b>{t('a')}</b></a>
+                    <Link to="/our-solutions"><b>{t('a')}</b></Link>
 
                 </ul>
                 </p>
                 </div>
                 <div class="imgg">
-                <img  src="05.jpg" alt=""/>
+                <img  src="fin.jpg" alt=""/>
                 </div>
                 
                 <div class="soft-title3">
@@ -52,7 +52,7 @@ function Software() {
                     <li class="E6">{t('E6')} </li>
                     <li class="E7">{t('E7')}</li>
                     <li class="E8">{t('E8')}</li>
-                    <a href="/our-solutions"><b>{t('a')}</b></a>
+                    <Link to="/our-solutions"><b>{t('a')}</b></Link>
 
                 </ul>
                 </p>
@@ -70,18 +70,15 @@ function Software() {
                     <li class="I5"> {t('I5')} </li>
                     <li class="I6"> {t('I6')} </li>
                     <li class="I7"> {t('I7')} </li>
-                    <a href="/our-solutions"><b>{t('a')}</b></a>
-
+                    <Link to="/our-solutions"><b>{t('a')}</b></Link>
                 </ul>
                 </p>
-                   
-                
                 </div>
                 <div >
                    <img class="imgg2" src="04.jpg" alt=""/>
                    </div>
             </div>
-            <div class="soft-title5">
+         {/*   <div class="soft-title5">
                 <h3 class="I8">{t('I8')}</h3>
                 <br/>
                 <p>
@@ -110,6 +107,7 @@ function Software() {
                 </ul>
                 </p>
             </div>
+    */}
             <div class="infos">
                   <ul>
                  <li> <a href="/contactus">Contact Us</a> </li>
@@ -120,6 +118,59 @@ function Software() {
                        <a href="/aboutus">À propos</a>
                   </p>
               </div>
+              <div class="house2">
+              <div class="nav">
+        <div class="header">
+          <a href="/">
+            <img src="logo.png" class="logo" alt="Sotelco" />
+          </a>
+          <ul class="flex">
+            <li>
+              <Link class="bb" to="/">
+                {" "}
+                <b class="F4">{t("F4")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link class="bb" to="/our-infrastructure">
+                <b class="F5">{t("F5")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link class="bb" to="/software-development">
+                <b class="F6">{t("F6")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link class="bb" to="/our-solutions">
+                <b class="F7">{t("F7")}</b>
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/startup-accelerator" class="bb">
+                <b class="F8">{t("F8")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link to="/e-learning" class="bb">
+                <b class="F9">{t("F9")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link to="/coworking" class="bb">
+                <b class="F10">{t("F10")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link to="/contactus" class="bb">
+                <b>CONTACT</b>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
               <div class="footers">
                   <p class="foots">Copyright © SOTELCO</p>
                   <a class="gotop" href="#" ><i class="fa fa-arrow-up" aria-hidden="true"></i> </a>

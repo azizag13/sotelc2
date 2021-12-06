@@ -1,8 +1,9 @@
 .startup {
     position: relative;
-    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./back33.jpg);
+    background: linear-gradient(#2626274d,rgba(39, 39, 39, 0.3)), url(./soo6.jpg);
     background-attachment: fixed;
-    height: 90vh;
+    background-size: cover;
+    height: 110vh;
 }
 .web {
     position: relative;
@@ -13,7 +14,7 @@
 }
 .start-title {
     position: relative;
-    top: 190px;
+    top: 240px;
 }
 .start-title {
     text-align: left;

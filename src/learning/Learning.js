@@ -1,6 +1,8 @@
 import React from 'react';
 import './learning.css';
 import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
+
 
 function Learning() {
     const {t, i18n} = useTranslation();
@@ -17,7 +19,7 @@ function Learning() {
 <p class="T4"> {t('T4')} </p>
 <p class="T5"> {t('T5')} </p>
              </p>
-               <a href="/contactus" class="btn btn-primary"> {t('btn btn-primary')} </a>
+             <Link to="/contactus" class="btn btn-primary">{t('btn btn-primary')}</Link>
 
                </div>
                </div>
@@ -382,6 +384,59 @@ function Learning() {
                        <a href="/aboutus">À propos</a>
                   </p>
               </div>
+              <div class="house5">
+              <div class="nav">
+        <div class="header">
+          <a href="/">
+            <img src="logo.png" class="logo" alt="Sotelco" />
+          </a>
+          <ul class="flex">
+            <li>
+              <Link class="bb" to="/">
+                {" "}
+                <b class="F4">{t("F4")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link class="bb" to="/our-infrastructure">
+                <b class="F5">{t("F5")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link class="bb" to="/software-development">
+                <b class="F6">{t("F6")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link class="bb" to="/our-solutions">
+                <b class="F7">{t("F7")}</b>
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/startup-accelerator" class="bb">
+                <b class="F8">{t("F8")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link to="/e-learning" class="bb">
+                <b class="F9">{t("F9")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link to="/coworking" class="bb">
+                <b class="F10">{t("F10")}</b>
+              </Link>
+            </li>
+            <li>
+              <Link to="/contactus" class="bb">
+                <b>CONTACT</b>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
               <div class="footer">
                   <p class="foot">Copyright © SOTELCO</p>
                   <a class="gotop" href="#" ><i class="fa fa-arrow-up" aria-hidden="true"></i> </a>
